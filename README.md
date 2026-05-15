@@ -28,11 +28,16 @@ AI-assisted IT help desk for capstone demos: customers submit tickets and chat w
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repo-url>
-cd supportbridge-ai
+git clone git@github.com:001vamp/SupportBridge-Capstone.git
+cd SupportBridge-Capstone
 ```
 
-> If your folder name differs (e.g. `Capstone`), `cd` into whatever directory contains this `README.md`.
+HTTPS (if you do not use SSH keys):
+
+```bash
+git clone https://github.com/001vamp/SupportBridge-Capstone.git
+cd SupportBridge-Capstone
+```
 
 ### 2. Install dependencies
 

@@ -32,13 +32,6 @@ git clone git@github.com:001vamp/SupportBridge-Capstone.git
 cd SupportBridge-Capstone
 ```
 
-HTTPS (if you do not use SSH keys):
-
-```bash
-git clone https://github.com/001vamp/SupportBridge-Capstone.git
-cd SupportBridge-Capstone
-```
-
 ### 2. Install dependencies
 
 From the **repository root** (npm workspaces: `client` + `server`):

@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Build output
+client/dist/
+
+# Local environment (never commit secrets)
+.env
+.env.*
+!.env.example
+!**/.env.example
+server/.env
+client/.env
+**/.env.local
+**/.env.*.local
+
+# SQLite database (local demo data; includes WAL sidecar files)
+**/*.sqlite
+**/*.sqlite-*
+!**/*.sqlite.example
+
+# OS / editor
+.DS_Store
+~$*
+*.docx
+*.log
+npm-debug.log*
+.vscode/
+.idea/
